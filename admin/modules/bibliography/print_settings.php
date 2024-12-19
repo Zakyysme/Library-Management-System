@@ -260,4 +260,20 @@ $form->addHidden('settingType', $type);
 <?php
 // print out the object
 echo $form->printOut();
+/*Add to Plugin Slip Buku Start*/
+
+$bookslip_page_margin = 0.2; //ukuran margin halaman
+$bookslip_items_per_row = 2; //jumlah slip buku perbaris
+$bookslip_width = 9; //lebar slip buku dalam satuan CM
+$bookslip_height = 20; // tinggi slip buku dalam satuan CM
+$bookslip_include_header_text = 1; // ubah 0 jika tidak tercetak nama perpustakaan
+$bookslip_address_text = "Upgris"; // tuliskan alamat perpustakaan dalam tanda petik
+$bookslip_header_text = "Perpustakaan Digital Indoensia" ; // biarkan kosong jika nama perpustakaan sesuai nama perpustakaan pada SLiMS
+$bookslip_cut_title = 36; // banyak nya karakter yang tercetak pada judul buku. ubah 0 jika nama tidak terpotong
+$bookslip_cut_authors = 36; // banyak nya karakter yang tercetak pada nama pengarang buku. ubah 0 jika nama tidak terpotong
+$bookslip_fonts = "Arial, Verdana, Helvetica, 'Trebuchet MS'"; // font yang digunakan
+$bookslip_number_row = 15; // jumlah baris kosong pada slip buku
+
+/*Add to Plugin slip Buku END*/
 /* main content end */
+

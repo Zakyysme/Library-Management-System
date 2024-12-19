@@ -45,3 +45,4 @@ $menu[] = array(__('Biblio Data Export'), MWB.'bibliography/export.php', __('Exp
 $menu[] = array(__('Biblio Data Import'), MWB.'bibliography/import.php', __('Import Data to Bibliographic Database from CSV file'));
 $menu[] = array(__('Biblio Item Export'), MWB.'bibliography/item_export.php', __('Export Item/Copies data To CSV format'));
 $menu[] = array(__('Biblio Item Import'), MWB.'bibliography/item_import.php', __('Import Data to Item/Copies database from CSV file'));
+$menu[] = array(__('Cetak Slip Buku'), MWB.'bibliography/slip_buku.php', __('Cetak Slip Buku'));
